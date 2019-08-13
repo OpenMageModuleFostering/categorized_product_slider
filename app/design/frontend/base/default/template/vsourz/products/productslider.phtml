@@ -24,9 +24,11 @@ $saleproduct = trim($helper->getSaleProductText());
 <div class="category-product-slider">
 <?php $_products = $this->getProducts(); ?>
 <?php $_items = $this->getProductCount(); ?>
+<?php if($this->getTitle()): ?>
 <div class="title">
 	<h3><?php echo $this->getTitle(); ?></h3>
 </div>
+<?php endif; ?>
 <div class="product-slider-outer">
 <ul id="owl-demo" class="owl-carousel product-slider">
 <?php foreach($_products as $_product):?>		
