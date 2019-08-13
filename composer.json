@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Categorized_Product_Slider",
+    "type": "magento-module",
+    "license": "Massachusetts-Institute-of-Technology-License-(MITL)",
+    "homepage": "",
+    "description": "Categorized Product Slider allows you to display the product from your desired category in a slide format.",
+    "authors": [
+    {
+        "name": "Vsourz Digital",
+        "email": "mehul@vsourz.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
