@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Categorized Product Slider allows you to display the product from your desired category in a slide format.
